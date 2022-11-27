@@ -4,7 +4,7 @@ on: workflow_dispatch
 jobs:
   build:
 
-    runs-on: windows-2022-16core
+    runs-on: ubuntu-20.04-16core
     timeout-minutes: 1440
 
     steps:
